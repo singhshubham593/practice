@@ -1,10 +1,17 @@
+import java.util.Arrays;
+
+// to rotate array in right side k times
 public class arrayrotate {
     public static void main(String[] args) {
         int[] nums={3,5,7,9};
-        int k=2;
+        slide(nums,2 );
+        System.out.println(Arrays.toString(nums));
+    }
+    static void slide(int[] nums,int k){
+        k=0;//k==no of index slide
         // for how many times k will be sift.
         for(int i=0;i<=k;i++){
-            System.out.println(leftswap(nums));
+             leftswap (nums);
         }
     }
 
