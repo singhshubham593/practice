@@ -2,11 +2,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class spiralOrder {
-    public List<Integer> main(int[][] matrix){
+    public static int main(int[][] matrix) {
+
+  //  }public List<Integer> main(int[][] matrix){
         List<Integer> list =new ArrayList<>();
 
         int row =matrix.length;
-        if(row==0)return list;
+       // if(row==0) return list;
         int col = matrix[0].length;
 
         int l=0,r=col-1,t=0,b=row-1,d=0;
@@ -38,6 +40,7 @@ public class spiralOrder {
                 t++;
             }
         }
-        return list;
+       // return list;
+        return 0;
     }
 }
