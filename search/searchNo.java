@@ -25,7 +25,7 @@ public class searchNo {
         //to search a no which is present in array or not
         for(i=0;i<size;i++){
             if(arr[i]==n){
-                System.out.println( n + "is present at indox no "+ i);
+                System.out.println( n + " is present at indox no "+ i);
             }
         }
 
