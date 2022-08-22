@@ -40,12 +40,12 @@ public class searchNo {
         int target =87;
         //store value in ans
         int ans = lenearSearch(arr,target);
-        System.out.println(ans);
+        System.out.println("THe target is present at index no :" + ans);
     }
     //Search in the array :return the index if item is found
     //Otherwise if no found return -1
     static int lenearSearch(int[] arr,int target){
-        //if array lengt is 0.then,return -1
+        //if array length is 0.then,return -1
         if(arr.length==0){
             return -1;
         }
