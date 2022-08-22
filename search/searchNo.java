@@ -3,6 +3,8 @@ import java.util.Scanner;
 // search a number is present in array or not.
 
 public class searchNo {
+    /*
+    ////Without function
     public static void main(String[] args) {
         int i;
         System.out.println("Enter the size :");
@@ -31,5 +33,27 @@ public class searchNo {
         }
 
     }
+    */
+    ///with function
+    public static void main(String[] args) {
+        int[] arr={34,56,99,87,99};
+        int target =87;
+        int ans = lenearSearch(arr,target);
+        System.out.println(ans);
+    }
+
+    static int lenearSearch(int[] arr,int target){
+        if(arr.length==0){
+            return -1;
+        }
+        for(int index =0;index<=arr.length;index++){
+            int element =arr[index];
+            if(element==target){
+                return index;
+            }
+        }
+            return -1;
+    }
+
 }
 
