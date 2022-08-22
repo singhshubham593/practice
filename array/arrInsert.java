@@ -32,7 +32,7 @@ public class arrInsert {
                 arr[i]=arr[i+1];
             }
         }
-         arr[loc]=n;
+        arr[loc]=n;
         //to print array after insert
         for(i=0;i<size;i++){
             System.out.println(arr[i]);
@@ -40,4 +40,3 @@ public class arrInsert {
 
     }
 }
-
