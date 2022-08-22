@@ -6,6 +6,7 @@ public class searchNo {
     public static void main(String[] args) {
         int i;
         System.out.println("Enter the size :");
+        // to take input
         Scanner sc = new Scanner(System.in);
         int size = sc.nextInt();
         int arr[] = new int[size];
