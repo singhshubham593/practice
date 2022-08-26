@@ -11,7 +11,7 @@ public class searchIn2darr {
         // number search a position.
         int target =77;
         // initialise function call in a variable.
-        int[] ans = search(arr,target);
+        int[] ans = search(arr,target); // format of return value {row,col}
         System.out.println(Arrays.toString(ans));
     }
     static int[] search(int[][] arr,int target){
