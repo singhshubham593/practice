@@ -4,7 +4,7 @@ public class evenDigits {
 
     public static void main(String[] args) {
         int[] nums = {12, 356, 7895, 34567};
-
+        // function call and print
         System.out.println("The even number of digits is " + findNumber(nums)+".");
     }
     //function to find even number in array.
