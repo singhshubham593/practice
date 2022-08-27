@@ -7,13 +7,25 @@ public class arrPermutationLT {
         System.out.println(buildArray(nums));
     }
     static int[] buildArray(int[] nums) {
+        /*
+        Approch
+
+        a=3  b=3 n=6
+
+        a=a+(b%n)*n;  -> 3+(4)*6 =27
+        a=a%n;        ->3
+        b=b/n;         ->4
+         */
         // lenght is asign in ans array.
-        int[] ans = new int[nums.length];
+        int n= nums.length;
         // process to build array permutation.
-        for (int i = 0; i < nums.length; i++) {
-            ans[i] = nums[nums[i]];
+        for (int i = 0; i < n; i++) {
+             nums[i] = nums[i]+(nums[i]%n)*n; //a=a+(b%n)*n
         }
-        return ans;
+        for(int i=0;i<n;i++){
+            nums[i]=nums[i]/n;  //b=b/n;
+        }
+        return nums ;
 
     }
 }
