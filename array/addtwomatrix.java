@@ -2,7 +2,7 @@ import java.util.Scanner;
    // add two matrix
 public class addtwomatrix {
     public static void main(String[] args) {
-        int m, n, c, d;
+        int m, n, c, d; //m=row, n=column
         Scanner in = new Scanner(System.in);
 
         System.out.println("Enter the number of rows and columns of matrix");
