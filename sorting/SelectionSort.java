@@ -6,6 +6,7 @@ public class SelectionSort {
         selectionSort(arr);
         System.out.println(Arrays.toString(arr));
     }
+    // Created new function
     static void selectionSort(int [] arr){
         // for placing maximum number in last
         for(int i = 0;i< arr.length;i++){
@@ -17,6 +18,7 @@ public class SelectionSort {
             swap(arr,maxIndex,last);
         }
     }
+
     //for swap using third variable
     static void swap(int[] arr,int first,int second){
         int temp = arr[first];
