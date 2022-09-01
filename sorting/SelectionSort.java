@@ -18,7 +18,6 @@ public class SelectionSort {
             swap(arr,maxIndex,last);
         }
     }
-
     //for swap using third variable
     static void swap(int[] arr,int first,int second){
         int temp = arr[first];
