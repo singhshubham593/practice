@@ -6,15 +6,15 @@ public class SelectionSort {
         selectionSort(arr);
         System.out.println(Arrays.toString(arr));
     }
-    // Created new function
+    // Created new function for selection of maximum element and placed on correct index.
     static void selectionSort(int [] arr){
-        // for placing maximum number in last
+        //  find the max item in the remaining array and swap with correct index
         for(int i = 0;i< arr.length;i++){
-            //asign value in last
+            //asign index in last
             int last = arr.length -1-i;
             // funcyion call and store value
             int maxIndex = getMaxIndex(arr,0,last);
-            // funcyion call and store value
+            // funcyion call
             swap(arr,maxIndex,last);
         }
     }
