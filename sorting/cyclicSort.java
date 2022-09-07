@@ -19,6 +19,7 @@ public class cyclicSort {
                 // if index is not at correct index. then, swap
                 swap(arr,i,correctIndex);
             }
+            // if index is at correct index. then,continue
             else{
                 i++;
             }
