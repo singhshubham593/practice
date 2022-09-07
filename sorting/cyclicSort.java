@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+// Cyclic sort
 public class cyclicSort {
     public static void main(String[] args) {
         int[] arr ={4,3,5,2,6,1};
