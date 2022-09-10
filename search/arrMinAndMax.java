@@ -1,3 +1,4 @@
+// Find smallest and largest number in array
 public class arrMinAndMax {
     public static void main(String[] args) {
         int[] arr = {34, 65, 78, 98, 22, 57};
