@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// search a number is present in array or not.
+// lenear search a number is present in array or not.
 
 public class searchNo {
     /*
