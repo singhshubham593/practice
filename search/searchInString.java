@@ -1,3 +1,4 @@
+// Find position of word in String
 public class searchInString {
     public static void main(String[] args){
         String name = "Shubham";
