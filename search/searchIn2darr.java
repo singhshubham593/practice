@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+// Find position of number in 2d array
 public class searchIn2darr {
     public static void main(String[] args) {
         // 2d array initialise and declared
