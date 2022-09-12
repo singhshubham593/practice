@@ -1,7 +1,8 @@
+//find no in array is found at this position.
 public class searchNoInRange {
     public static void main(String[] args) {
         int[] arr ={45,76,99,75,35,87,48,34,67};
-        int target =35;// to find no in array with position.
+        int target =35;//find no in array with position.
         System.out.println(lenearSearch(arr,target,1,7));
     }
     //Search in the array :return the index if item is found
