@@ -20,4 +20,11 @@ public class encapsulation {
         System.out.println(myObj.name); // error
     }
      */
+    // name variable is declared as private, we can access it from outside this class:
+
+    public static void main(String[] args) {
+        Person myObj = new Person();
+        myObj.setName("John"); // Set the value of the name variable to "John"
+        System.out.println(myObj.getName());//john
+    }
 }
