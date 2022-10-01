@@ -14,6 +14,20 @@ class packages {
         System.out.println("Username is: " + userName);
     }
 }
+/*
+ //user-defined package.
+
+package mypack; // mypack is user define package.
+
+class MyPackageClass {
+    public static void main(String[] args) {
+        System.out.println("This is my package!");
+    }
+}
+ */
+
+
+
 
 
 
