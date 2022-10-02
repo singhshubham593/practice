@@ -6,6 +6,7 @@ public class BubbleSort {
         bubbleSort(arr);
         System.out.println(Arrays.toString(arr));
     }
+
     // creating new function for bubble Sort
     static void bubbleSort(int[] arr){
         boolean swapped;
@@ -23,7 +24,7 @@ public class BubbleSort {
                     swapped = true;
                 }
             }
-            // if you did not swap for a particular value of i, it means the array is sorted heace stop the program
+            // if you did not swap for a particular value of i, it means the array is sorted,hence stop the program
             if(swapped == false){
                 break;
             }
