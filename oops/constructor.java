@@ -17,6 +17,15 @@ public class constructor {
 }
 // Outputs 5
  */
+/*
+//// this constructor present in c++
+//  Creating copy constructor.
+class_name(construct class_name and job)
+pen(pen pen2){
+this.color =pen2.color;
+this.type =pen2.type;
+}
+ */
 
 //  Create a constructor parameter
 public class constructor {
