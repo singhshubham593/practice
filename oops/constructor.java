@@ -1,6 +1,6 @@
 // Create a constructor
 /*
-// Create a constructor class
+// 1. Create a constructor class
 public class constructor {
 
      int x;  // Create a class attribute
@@ -19,7 +19,7 @@ public class constructor {
  */
 /*
 //// this constructor present in c++
-//  Creating copy constructor.
+// 2. Creating copy constructor.
 class_name(construct class_name and job)
 pen(pen pen2){
 this.color =pen2.color;
@@ -27,7 +27,7 @@ this.type =pen2.type;
 }
  */
 
-//  Create a constructor parameter
+// 3. Create a constructor parameter
 public class constructor {
     int x;
 
