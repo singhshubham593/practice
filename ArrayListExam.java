@@ -1,6 +1,5 @@
 import java.util.ArrayList; // import  arrayList package.
 import java.util.Collections; // import Collection package.
-
 //import java.util.*;   /// import all package
 
 public class ArrayListExam {
