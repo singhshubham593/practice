@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Car" type="Application" factoryName="Application" folderName="New Folder" nameIsGenerated="true">
+    <option name="MAIN_CLASS_NAME" value="Car" />
+    <module name="practice" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
