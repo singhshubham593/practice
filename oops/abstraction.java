@@ -1,4 +1,5 @@
 // Abstraction
+/*
 class abstraction {
     public static void main(String[] args) {
         Pig myPig = new Pig(); // Create a Pig object
@@ -25,3 +26,5 @@ class Pigs extends Animal {
     }
 }
 
+
+ */
