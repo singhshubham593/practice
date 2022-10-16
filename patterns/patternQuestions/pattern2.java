@@ -14,11 +14,11 @@
 
 public class pattern2 {
     public static void main(String[] args) {
-        //function ca//
-        pattern1(5);
+        //function call
+        pattern2(5);
     }
-
-    static void pattern1(int n){
+    // For pattern design
+    static void pattern2(int n){
         //for row
         for ( int row = 1; row <= n ; row++){
             // for every row,run the coloum
