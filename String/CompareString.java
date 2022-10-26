@@ -11,6 +11,9 @@ public class CompareString {
 
         String name1 = new String("shubham");
         String name2 = new String("shubham");
-        System.out.println(name1==name2);
+
+        System.out.println(name1==name2); // comparator is ==. and result is false
+
+        System.out.println(name1.equals(name2)); // .equal() is method or fuction.and resuit is true
     }
 }
