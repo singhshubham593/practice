@@ -5,7 +5,7 @@ public class addtwomatrix {
         int m, n, c, d; //m=row, n=column
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Enter the number of rows and columns of matrix");
+        System.out.println("Enter the number of rows and columns of matrix:");
         // taking value of row and column.
         m = in.nextInt();// row
         n = in.nextInt();// column
@@ -14,13 +14,13 @@ public class addtwomatrix {
         int[][] second = new int[m][n];
         int[][] sum = new int[m][n];
 
-        System.out.println("Enter the elements of first matrix");
+        System.out.println("Enter the elements of first matrix::");
         //for element in first matrix
         for (c = 0; c < m; c++)
             for (d = 0; d < n; d++)
                 first[c][d] = in.nextInt();
 
-        System.out.println("Enter the elements of second matrix");
+        System.out.println("Enter the elements of second matrix:");
         //for element in second matrix
         for (c = 0; c < m; c++)
             for (d = 0; d < n; d++)
