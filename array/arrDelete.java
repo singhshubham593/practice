@@ -24,6 +24,7 @@ public class arrDelete {
         int n =sc.nextInt(); // n=value want to delete in array
         //process to delete array
         for( i=0;i<size;i++){
+            // condition n== value of array index
             if(arr[i]==n){
                 for (j=i;j<(size-1);i++){
                     arr[j]=arr[j+1];
@@ -36,5 +37,6 @@ public class arrDelete {
         for( i=0;i<(size-1);i++){
             System.out.println(arr[i]);
         }
+        System.out.println("If "+ n +" is not found in array,Last element is so deleted");
     }
 }
