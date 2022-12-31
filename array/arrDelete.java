@@ -2,7 +2,7 @@ import java.util.Scanner;
 //Delete an element from array given by user
 public class arrDelete {
     public static void main(String[] args) {
-        int i,j;
+        int i,j; // i=j=index of array
         Scanner sc = new Scanner(System.in);
         //to take array size input
         System.out.println("Enter the size of array :");
@@ -21,7 +21,7 @@ public class arrDelete {
         }
         // take number to delete in array
         System.out.println("Enter number to delete array is :");
-        int n =sc.nextInt();
+        int n =sc.nextInt(); // n=value want to delete in array
         //process to delete array
         for( i=0;i<size;i++){
             if(arr[i]==n){
