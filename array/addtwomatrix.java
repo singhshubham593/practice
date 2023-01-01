@@ -1,5 +1,5 @@
 import java.util.Scanner;
-   // addition of two matrix
+   //addition of two matrix
 public class addtwomatrix {
     public static void main(String[] args) {
         int m, n, c, d; //m=row, n=column , c=d=index of matrix
