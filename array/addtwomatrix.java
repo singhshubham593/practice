@@ -33,6 +33,7 @@ public class addtwomatrix {
                 sum[c][d] = first[c][d] + second[c][d];  //replace '+' with '-' to subtract matrices
 
         System.out.println("Sum of entered matrices::");
+
         // printing sum of matrix
         for (c = 0; c < m; c++) {
             for (d = 0; d < n; d++)
