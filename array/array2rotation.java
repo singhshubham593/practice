@@ -1,5 +1,11 @@
 import java.util.Arrays;
-
+//rotating array index value
+/*
+Given Array is
+[1, 2, 3, 4, 5]
+Rotated Array is
+[5, 1, 2, 3, 4]
+ */
 public class array2rotation {
         static int arr[] = new int[]{1, 2, 3, 4, 5};
 
