@@ -19,6 +19,7 @@ public class arrDelete {
         for( i=0;i<size;i++){
             System.out.println(arr[i]);
         }
+
         // take number to delete in array
         System.out.println("Enter number to delete array is :");
         int n =sc.nextInt(); // n=value want to delete in array
@@ -32,6 +33,7 @@ public class arrDelete {
                 }
             }
         }
+
         //print array after deleting array
         System.out.println("The deleted array is :");
         for( i=0;i<(size-1);i++){
