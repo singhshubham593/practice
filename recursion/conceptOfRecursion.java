@@ -1,4 +1,6 @@
 public class conceptOfRecursion {
+    //write a function that take in a number and print it
+    //print first 4 number : 1234
     /*
 
     public static void main(String[] args) {
@@ -27,12 +29,24 @@ public class conceptOfRecursion {
     }
     */
     public static void main(String[] args) {
-        //write a function that take in a number and print it
-        //print first 4 number : 1234
+        // fun call
         print1(1);
     }
     static void print1(int n){
+        //base condition:condition where our recursion will stop making new call
+        // If No base condition:fun call never end and memory is exceed the limit
+        if(n==5){
+            return;
+        }
         System.out.println(n);
+        //Recursive call
+        //if you are calling a function again and again,you treat it as a separate call in the stack
+        // and separate memory is allocated for every function
+
+
+        //this is called tail recursion
+        //this is the last function call
+        print1(n+1);
 
     }
 }
