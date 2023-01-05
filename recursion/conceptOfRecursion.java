@@ -31,7 +31,11 @@ public class conceptOfRecursion {
     public static void main(String[] args) {
         // fun call
         print1(1);
-    }
+    }/*
+    //Use of variable in Recursion arw : 1.argument
+                                         2.Return type
+                                         3.body of function
+       */
     static void print1(int n){
         //base condition:condition where our recursion will stop making new call
         // If No base condition:fun call never end and memory is exceed the limit
