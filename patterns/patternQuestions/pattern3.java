@@ -16,7 +16,7 @@ public class pattern3 {
     static void pattern(int n){
         for(int row=1;row<=n;row++){
             for(int coloum=1;coloum<=n-row+1;coloum++){
-                System.out.println("* ");
+                System.out.print("*");
             }
             System.out.println();
         }
