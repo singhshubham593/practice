@@ -6,6 +6,7 @@ public class rotateArrbyK {
         System.out.print(" the rotated array by k is : ");
         System.out.println(Arrays.toString(rotate(arr,2)));
     }
+    // rotate function
     static int[] rotate(int[] arr, int k){
        // k%=arr.length;
         reverce(arr,0, arr.length-1);
@@ -13,6 +14,7 @@ public class rotateArrbyK {
         reverce(arr,k, arr.length-1);
         return arr;
     }
+    // reverce function
     static void reverce(int[] arr,int start,int end){
          //start=0;
          //end=arr.length-1;
