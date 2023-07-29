@@ -1,12 +1,14 @@
 import java.util.Arrays;
 
 // matrix diagonal sum
+/*
+ ( 1+5+9+7+3=25)
+ */
 public class matrixDiagSum {
     public static void main(String[] args) {
         int[][] arr={{1,2,3},
                      {4,5,6},
-                     {7,8,9},
-        };
+                     {7,8,9},  };
         System.out.print(" The sum of diagonal is :");
         System.out.println(diaSum(arr));
 
