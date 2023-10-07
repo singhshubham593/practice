@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /*
 leetcode : 1929 : concatenation of Array
         Given an integer array nums of length n, you want to create an array ans of length 2n where
@@ -13,4 +15,17 @@ leetcode : 1929 : concatenation of Array
 
  */
 public class concaOfArr {
+    public static void main(String[] args) {
+        int[] nums = {1,2,1};
+        System.out.println(Arrays.toString(concat(nums)));
+    }
+    static int[] concat(int[] nums){
+        int n=nums.length;
+        int[] ans=new int[2*n];
+        for (int i=0;i<n;i++){
+            ans[i]=nums[i];
+            ans[i+n]=nums[i];
+        }
+        return ans;
+    }
 }
